@@ -53,3 +53,21 @@ header {
   font-weight: 300;
   font-size: 0.9rem;
 }
+
+/* ============== media queries (medium device)===========*/
+@media screen and (max-width: 1024px) {
+  header {
+    height: 80vh;
+  }
+}
+
+/* ============== media queries(small device) ===========*/
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+  .header_socials,
+  .scroll_down {
+    display: none;
+  }
+}
