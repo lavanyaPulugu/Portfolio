@@ -12,9 +12,9 @@ const Nav = () => {
   return (
     <nav>
       <a
-        href="#header"
-        onClick={() => setActiveNav("#header")}
-        className={activeNav === "#header" ? "active" : ""}
+        href="/"
+        onClick={() => setActiveNav("/")}
+        className={activeNav === "/" ? "active" : ""}
       >
         <FaHome />
       </a>
